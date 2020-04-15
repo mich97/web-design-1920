@@ -159,7 +159,7 @@ Lees hier de [criteria van opdracht 1](Opdracht1.md)
 
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+<!-- Add a link to your live docs in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
 
