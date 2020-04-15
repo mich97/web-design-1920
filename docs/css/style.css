@@ -41,12 +41,6 @@ form {
     grid-gap: 10px;
 }
 
-input[type="date"] {
-    width: 100%;
-    padding: 2em;
-    border-radius: 5px;
-}
-
 main section {
     margin-bottom: 5em;
 }
