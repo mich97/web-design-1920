@@ -50,3 +50,16 @@ input[type="date"] {
 main section {
     margin-bottom: 5em;
 }
+
+button {
+    width: 100%;
+    background: var(--purple);
+    border-radius: 5px;
+    border: 0;
+    padding: 2em;
+    color: var(--light);
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
