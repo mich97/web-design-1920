@@ -46,3 +46,7 @@ input[type="date"] {
     padding: 2em;
     border-radius: 5px;
 }
+
+main section {
+    margin-bottom: 5em;
+}
