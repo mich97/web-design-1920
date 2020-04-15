@@ -29,7 +29,7 @@ select {
 
 select:focus {
     outline: none;
-    background: var(--purple);
+    background: var(--black);
     color: var(--white);
 }
 
@@ -37,4 +37,14 @@ form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+main section {
+    margin-bottom: 3em;
 }
