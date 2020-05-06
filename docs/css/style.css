@@ -1,7 +1,7 @@
 :root {
     --orange: #d84315;
     --light-orange: #f4511e;
-    --dark: #424242;
+    --dark: #000000;
     --light: #f5f5f5;
 }
 
@@ -10,12 +10,21 @@
     font-family: monospace;
 }
 
-html, body {
+html {
     scroll-behavior: smooth;
-    max-width: 40em;
+}
+
+body {
+    max-width: 90em;
     margin: 0 auto;
-    background: var(--light);
+    background: #e0e0e0;
     color: var(--dark);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
 }
 
 section {
@@ -28,7 +37,6 @@ section {
 }
 
 h1 {
-    text-align: center;
     margin: 0;
     margin-bottom: 1em;
     font-size: 3em;
@@ -36,7 +44,13 @@ h1 {
 
 p {
     font-size: 1.4em;
+}
+h2, h1, p, h3 {
     text-align: center;
+}
+
+h3 {
+    font-weight: 900;
 }
 
 div[class="start-container"], div[class="end-container"] {
@@ -51,7 +65,7 @@ select {
 form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 1em;
 }
 
 a {
@@ -86,6 +100,7 @@ a:hover {
 }
 
 .next {
+    display: block;
     margin-top: 2em;
 }
 
@@ -95,6 +110,151 @@ a:hover {
     grid-gap: 10px;
 }
 
-h2 {
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.form-container {
+    padding: 1em;
+}
+
+.result-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result-box {
+    padding: 1em;
+    border: 5px solid var(--orange);
+    border-style: dashed;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.info-container {
+    margin-bottom: 4em;
     text-align: center;
+}
+
+.info-container h2 {
+    font-size: 1.8em;
+}
+
+.d-none {
+    display: none;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fire {
+    position: absolute;
+    background-color: red;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 43em;
+    text-align: center;
+    border: 5px solid var(--orange);
+    border-style: dashed;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1em;
+}
+
+/* SVG FIRE */
+
+
+.mo-fire {
+    height: auto;
+    position: fixed;
+    bottom: -100px;
+    width: 100vw;
+    text-align: center;
+    left: 0px;
+    z-index: -5;
+}
+
+#svg-view {
+    width: 252px;
+    height: 125px;
+    left: 0px;
+}
+
+.mo-fire svg {
+    width: 100%;
+    height: auto;
+    position:relative;
+    right:40px;
+}
+.flame {
+    animation-name: flameDisappear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+    transform-origin: 45% 45% 0;
+}
+.flame.one {
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+.flame.two{
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+
+.flame-main {
+    animation-name: flameMovement;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.flame-main.one {
+    animation-duration: 2.2s;
+    animation-delay: 1s;
+}
+.flame-main.two {
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+.flame-main.three {
+    animation-duration: 2.1s;
+    animation-delay: 3s;
+}
+.flame-main.four {
+    animation-duration: 3.2s;
+    animation-delay: 4s;
+}
+.flame-main.five {
+    animation-duration: 2.5s;
+    animation-delay: 5s;
+}
+@keyframes flameMovement {
+    50% {
+        transform: scale(0.98,1.0) translate(0, 2px) rotate(-1deg);
+    }
+}
+@keyframes flameDisappear {
+    0% {
+        transform: translate(0) rotate(180deg);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-10px, -40px) rotate(180deg);
+        opacity: 0;
+    }
 }
