@@ -19,6 +19,7 @@ The Booking Buddy is an application specifically made for Marijn Meijles with th
         - [Interview results](#interview-results)
     - [Test 2](#test-2)
     - [Test 3](#test-3)
+- [Credits](#credits)
 
 ## Meet Marijn Meijles (User Scenario)
 ![The man himself](./course/marijn-meijles.jpg)
