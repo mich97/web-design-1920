@@ -103,4 +103,5 @@ Concluded changes I could make to the application:
 - Team Marijn for working together/sharing found information
 - Web Design lectures and involved teachers/guests
 - Vasilis for driving down to Eindhoven for the tests
-- [Used fire animation](https://codepen.io/tahina/pen/WRXNwQ)
+- [Fire animation](https://codepen.io/tahina/pen/WRXNwQ)
+- [Exclusive Design](https://exclusive-design.vasilis.nl/)
