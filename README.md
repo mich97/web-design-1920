@@ -2,11 +2,11 @@
 ![thumbnail](./course/thumbnail.png)
 
 ## Description
-The Booking Buddy is an application specifically made for Marijn Meijles with the help of the [Exclusive Design Principles](https://exclusive-design.vasilis.nl/) written by Vasilis van Gemert. The Booking Buddy is made to have an accessible datepicker.
+The Booking Buddy is an application specifically made for Marijn Meijles with the help of the [Exclusive Design Principles](https://exclusive-design.vasilis.nl/) written by Vasilis van Gemert. The Booking Buddy is a hotel booking applcation divided in parts giving the ability to pick from a hotel, room, check-in and check-out date. It has been designed to be as accessible as possible exclusively for Marijn.
 
 [Live Demo](https://mich97.github.io/web-design-1920/)
 
-## Tables of content
+## Table of contents
 
 - [Meet Marijn Meijles (User Scenario)](#meet-marijn-meijles-user-scenario)
 - [Exclusive design principles](#exclusive-design-principles)
