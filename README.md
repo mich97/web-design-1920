@@ -26,7 +26,7 @@ The Booking Buddy is an application specifically made for Marijn Meijles with th
 
 This application is made specifically for Marijn Meijles, Marijn is a developer who loves metal music with a motoric disorder which weakens his muscles. As you can imagine this could make certain things difficult for Marijn. To be more specific, things that require accuracy/precision in movements can be challenging.
 
-It's the start of the week and Marijn has to go to Amsterdam as usual for work. As he lives pretty for away from Amsterdam (Eindhoven) he's gonna want to book a night stay in a hotel.
+It's the start of the week and Marijn has to go to Amsterdam as usual for work. As he lives pretty for away from Amsterdam (Eindhoven) he's gonna want to book a 1 night stay in a hotel.
 
 Marijn opens the application and right away gets instructions on how to start. Cause Marijn has used the application before there are already some defaults he can pick, he picks his usual hotel/room-type and continues. Next up Marijn picks the day he wants to check-in for. Cause the application knows that Marijn normally stays 1 night it suggest the very next day to be the check-out date. Perfect!
 
